@@ -1,0 +1,11 @@
+.profile {
+  height: 650px;
+  width: 100%;
+  background-color: #b5956c;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+

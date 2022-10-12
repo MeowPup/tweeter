@@ -15,11 +15,25 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fffffd;
+  background-color: #b5956c;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ .allTweets {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+ }
+
+

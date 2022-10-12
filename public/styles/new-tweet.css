@@ -1,0 +1,28 @@
+.new-tweet {
+ width: 90%;
+ margin-bottom: 50px;
+}
+
+#tweet-text {
+  width: 100%;
+  max-height: 40px;
+  background: none;
+  border: none;
+  border-bottom: 5px solid black;
+}
+
+.button {
+  font-family: 'Bungee', cursive; 
+  color: white;
+  background-color: #4056A1;
+}
+
+.counter {
+  float: right;
+  font-family: 'Bungee', cursive; 
+  color: black;
+}
+
+.charLimit {
+  color: red;
+}
