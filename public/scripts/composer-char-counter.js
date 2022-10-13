@@ -4,6 +4,7 @@ $(document).ready(function() {
     let charCounter = $(this).val().length;
     let counterVal = 140;
     let currentChar = counterVal - charCounter;
+
     $('.counter').text(currentChar);
 
     if (currentChar < 0) {

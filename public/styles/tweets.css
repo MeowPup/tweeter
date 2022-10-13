@@ -1,11 +1,19 @@
-.allTweets {
+div#tweets-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  flex-direction: column;
+}
+
+section#tweets-container {
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  background-color: rgb(241, 230, 215);
-  color: rgb(69, 69, 69);
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  background-color: rgb(241, 230, 215);
+  color: rgb(69, 69, 69);
 }
 
 .tweetArea {
@@ -42,6 +50,13 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px; 
+  font-size: 20px;
+  flex-flow: row wrap;
+}
+
+.timeAgo {
+  display: flex;
+  justify-content: flex-start;
   font-size: 20px;
 }
 

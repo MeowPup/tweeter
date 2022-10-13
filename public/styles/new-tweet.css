@@ -26,3 +26,19 @@
 .charLimit {
   color: red;
 }
+
+.errorCharLimit {
+  border-style: solid;
+  border-color: red;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.errorNoChar {
+  border-style: solid;
+  border-color: red;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
