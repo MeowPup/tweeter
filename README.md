@@ -2,6 +2,16 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
+ ### Front end
+ - HTML
+ - CSS
+ - Jquery
+ - Ajax
+
+ ### Backend 
+ - Node 
+ - Express
+
 ## Well... What does it do? 
 
 Tweeter allows the user to browse a dashboard of tweets created by people around the web! Share your own thoughts with the world by posting a tweet of your own. Be amazed by the wonderous hover effects and clickless pretty symbols on the screen - you'll love it! 
