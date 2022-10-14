@@ -1,5 +1,5 @@
 .new-tweet {
- width: 90%;
+ width: 100%;
  margin-bottom: 50px;
  color: rgb(68, 68, 68);
 }
@@ -48,3 +48,10 @@
   border-radius: 20px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .new-tweet {
+    width: 90%;
+    margin-bottom: 50px;
+    color: rgb(68, 68, 68);
+   }
+}

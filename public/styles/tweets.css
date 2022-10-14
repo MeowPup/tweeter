@@ -1,7 +1,7 @@
 div#tweets-container {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -70,6 +70,13 @@ i:hover {
 }
 
 @media only screen and (min-width: 1024px) {
+  div#tweets-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+  }
+
   .container {
     height: 250px;
     width: 50%;
