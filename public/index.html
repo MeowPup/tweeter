@@ -62,10 +62,14 @@
   </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
     <section class="new-tweet">
-      <p class="errorCharLimit" style="display: none;">You've gone over the character limit!</p>
-      <p class="errorNoChar" style="display: none;">You need to insert text first!</p>
+      <p class="errorCharLimit" style="display: none;"><i class="fa-sharp fa-solid fa-triangle-exclamation"></i>
+        Too many words! You've gone over the character limit!
+        <i class="fa-sharp fa-solid fa-triangle-exclamation"></i></p>
+      <p class="errorNoChar" style="display: none;"><i class="fa-sharp fa-solid fa-triangle-exclamation"></i>
+        There's nothing there! You need to insert text first!
+        <i class="fa-sharp fa-solid fa-triangle-exclamation"></i></p>
       <form id="newTweets">
         <p>What are you humming about?</p>
         <textarea name="text" id="tweet-text"></textarea>
@@ -77,5 +81,6 @@
     </section>
     <!-- Tweets Container -->
     <div id="tweets-container"></div>
+  </main>
   </body>
 </html>

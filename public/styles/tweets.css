@@ -39,6 +39,7 @@ section#tweets-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  word-break: break-all;
 }
 
 .tweetFooter {
@@ -66,4 +67,11 @@ section#tweets-container {
 
 i:hover {
   color:darkgoldenrod;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 250px;
+    width: 50%;
+  }
 }

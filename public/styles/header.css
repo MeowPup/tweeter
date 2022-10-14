@@ -8,3 +8,15 @@
   flex-direction: column;
 }
 
+@media only screen and (min-width: 1024px) {
+ 
+  .profile {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    width: 30%;
+    margin-left: 10vh;
+    border-style: solid;
+    border-radius: 25px;
+  }
+}

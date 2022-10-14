@@ -55,12 +55,12 @@ $(document).ready(function() {
     const tweetLength = $(this).find('#tweet-text').val().length;
 
     if (tweetLength > maxCharCount) {
-      $('.errorCharLimit').slideDown(3000, function() {
-        $('.errorCharLimit').slideUp(2000);
+      $('.errorCharLimit').slideDown(2000, function() {
+        $('.errorCharLimit').slideUp(4000);
       });
     } else if (!tweetLength) {
-      $('.errorNoChar').slideDown(3000, function() {
-        $('.errorNoChar').slideUp(2000);
+      $('.errorNoChar').slideDown(2000, function() {
+        $('.errorNoChar').slideUp(4000);
       });
     } else {
       $.ajax({

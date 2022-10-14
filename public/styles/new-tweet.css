@@ -1,6 +1,7 @@
 .new-tweet {
  width: 90%;
  margin-bottom: 50px;
+ color: rgb(68, 68, 68);
 }
 
 #tweet-text {
@@ -30,15 +31,20 @@
 .errorCharLimit {
   border-style: solid;
   border-color: red;
-  color: red;
+  background-color:red;
+  color: white;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .errorNoChar {
   border-style: solid;
   border-color: red;
-  color: red;
+  background-color:red;
+  color: white;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
+
