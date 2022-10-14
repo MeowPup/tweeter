@@ -8,9 +8,9 @@ Tweeter allows the user to browse a dashboard of tweets created by people around
 
 ## Preview 
 
-!["Tweeter in action"] (https://github.com/MeowPup/tweeter/blob/master/docs/Screenshot%202022-10-13%20at%208.57.23%20PM.png?raw=true)
+!["Tweeter in action"](https://github.com/MeowPup/tweeter/blob/master/docs/Screenshot%202022-10-13%20at%208.57.23%20PM.png?raw=true)
 
-!["Use Tweeter mobile!"] (https://github.com/MeowPup/tweeter/blob/master/docs/Screenshot%202022-10-13%20at%208.58.15%20PM.png?raw=true)
+!["Use Tweeter mobile!"](https://github.com/MeowPup/tweeter/blob/master/docs/Screenshot%202022-10-13%20at%208.58.15%20PM.png?raw=true)
 
 ## Getting Started
 
