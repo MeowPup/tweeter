@@ -61,12 +61,20 @@ section#tweets-container {
   font-size: 20px;
 }
 
-.allTweets:hover{
-  box-shadow: 10px 10px 10px 10px black;
+section#tweets-container:hover{
+  box-shadow: 5px 5px rgb(93, 85, 178);
 }
 
-i:hover {
-  color:darkgoldenrod;
+.fa-flag:hover {
+  color:rgb(25, 122, 80);
+}
+
+.fa-repeat:hover {
+  color:rgb(0, 81, 242)
+}
+
+.fa-heart:hover {
+  color: rgb(185, 29, 55);
 }
 
 @media only screen and (min-width: 1024px) {
