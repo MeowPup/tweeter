@@ -71,6 +71,7 @@ $(document).ready(function() {
         .then(function() {
           $("#tweet-text").val("");
           $('#tweets-container').empty();
+          $(".counter").val(maxCharCount);
           loadTweets();
         });
     }
